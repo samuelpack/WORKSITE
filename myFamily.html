@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>All About Me</title>
+
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+
+        <style>
+
+            .contentInner2 { height : 571px; }
+
+            .background { 
+                background : url(img/homeBackground.jpg);
+                background-size : cover;
+            }
+
+            .headshot {
+                float : left;
+                padding-right : 20px;
+            }
+
+        </style>
+
+        <script 
+            src="app.js" 
+            type="text/javascript" 
+            charset="utf-8">
+        </script>
+        
+        <script>app.currentPage = "home"; </script>
+
+    </head>
+
+    <body onload="app.start();">
+
+        <div id="content" class="content background">
+            <div class="contentInner contentInner2">
+                <img src="img/headshot.png" alt="Frank W. Zammetti" width="640" height="571" class="headshot" />
+                   <div class="pageHeader">My Family Life</div>
+                   <div class="familyContainer">
+                       <div class="traciPic"><img src="img/traci.png" width="480" height="680" alt="Traci"></div>
+                       <div class="traciText">
+                           ...descriptive text...
+                       </div>
+                       <div class="andrewPic"><img src="img/andrew.png" width="480" height="680" alt="Andrew"></div>
+                       <div class="andrewText">
+                        ...descriptive text...
+                    </div>
+                    <div class="ashleyPic"><img src="img/ashley.png" width="480" height="680" alt="Ashley"></div>
+                       <div class="ashleyText">
+                        ...descriptive text...
+                        <p>this is the myFamily page</p>
+                    </div>
+                   </div>
+            </div>
+        </div>
+           
+    </body>
+</html>
