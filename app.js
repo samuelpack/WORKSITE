@@ -1,7 +1,7 @@
 const app = {
     start : function() {
 
-        app.myWork = app.creativeNavBar("myWork");
+        app.myWork = app.createNavBar("myWork");
         app.myHobbies = app.createNavBar("myHobbies");
         app.myFamily = app.createNavBar("myFamily");
         app.contactMe = app.createNavBar("contactMe");
